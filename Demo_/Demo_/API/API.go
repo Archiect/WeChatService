@@ -9,8 +9,8 @@ import (
 
 const (
 	code2sessionURL = "https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code"
-	appID           = "wx18c24b3418f24e2d"
-	appSecret       = "1439eca80ffc60c2bb2b075cf370af3a"
+	appID           = "ID"
+	appSecret       = "key"
 )
 
 func GetOpenId(code string) string {
